@@ -9,6 +9,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/jquery-ui-1.10.4.min.js"></script>
         
         <link href="https://windowsmenutheme.000webhostapp.com/css/animate.css" rel="stylesheet">
         <link href="https://windowsmenutheme.000webhostapp.com/css/bootstrap.css" rel="stylesheet">
@@ -20,6 +21,12 @@
                 background-image: none;
             }
         </style>
+        <script type="text/javascript">
+          $(function(){
+              $('.menu-item-sm').draggable();
+              $('.menu-item-lg').draggable(); 
+          });
+        </script>
     </head>
     <body>
        <div class="row menu-header">
@@ -27,43 +34,43 @@
            </div>
            <div class="col-md-8 col-sm-8 col-xs-8">
                <div class=" wow fadeIn">
-                    <div class="menu-item-sm blue grad-two">
+                    <div class="menu-item-sm blue grad-two ui-widget-content" id="index">
                         <a href="#">index</a>
                    </div>
-                   <div class="menu-item-sm darkred wow rotateX-delay">
+                   <div class="menu-item-sm darkred wow rotateX-delay" id="people">
                        <a href="#">People's</a>
                    </div>
-                   <div class="menu-item-sm darkblue wow rotateZ-delay">
+                   <div class="menu-item-sm darkblue wow rotateZ-delay" id="music">
                        <a href="#">Music</a>
                    </div>
-                   <div class="menu-item-lg reddish wow scaleIn">
+                   <div class="menu-item-lg reddish wow scaleIn" id="news">
                        <a href="#">News</a>
                    </div>
-                   <div class="menu-item-sm grad-one wow grad">
+                   <div class="menu-item-sm grad-one wow grad" id="Hello">
                        <a href="#">Hello</a>
                    </div>
                    <div class="dropdown-menu-right">
-                       <div class="menu-item-sm blue wow rotateY-delay">
+                       <div class="menu-item-sm blue wow rotateY-delay" id="Ganna">
                            <a href="#">Ganna</a>
                        </div>
-                       <div class="menu-item-sm yellow headShakeY">
+                       <div class="menu-item-sm yellow headShakeY" id="Hello1">
                            <a href="#">Hello (.)</a>
                        </div>
                    </div>
                   
-                   <div class="menu-item-lg wow grad-three">
+                   <div class="menu-item-lg wow grad-three" id="9">
                        <a href="#">9</a>
                    </div>
-                   <div class="menu-item-sm orange wow scaleOut">
+                   <div class="menu-item-sm orange wow scaleOut" id="orange">
                        <a href="#">Orange</a>
                    </div>
-                   <div class="menu-item-sm purpal wow fadeing">
+                   <div class="menu-item-sm purpal wow fadeing" id="a">
                        <a href="#">A</a>
                    </div>
-                   <div class="menu-item-sm skyblue wow headShake">
+                   <div class="menu-item-sm skyblue wow headShake" id="b">
                        <a href="#">B</a>
                    </div>
-                   <div class="menu-item-sm reddish wow rotateX-invers">
+                   <div class="menu-item-sm reddish wow rotateX-invers" id="c">
                        <a href="#">C</a>
                    </div>
                </div>
